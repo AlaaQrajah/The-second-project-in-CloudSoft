@@ -323,3 +323,17 @@ footer .navbar-nav li i {
   font-size: 21px;
   padding: 7px;
 }
+.img-slider {
+  height: 100px !important;
+  width: 100px !important ;
+  border-radius: 15px;
+  border: 1px dashed #ccc !important ;
+}
+.carousel-images {
+  position: absolute;
+  display: flex !important;
+  flex-direction: column !important;
+  bottom: 70px !important;
+  right: -130px;
+  gap: 10px;
+}
