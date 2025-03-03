@@ -54,7 +54,8 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div>
-            <button class="navbar-toggler menu-icon" type="button">
+            <button class="navbar-toggler menu-icon" type="button" data-bs-target="offcanvas" aria-controls="#login"
+              aria-expanded="false" aria-label="Toggle navigation">
               <i class="fa-solid fa-cart-shopping"></i>
             </button>
             <button class="navbar-toggler menu-icon" type="button">
@@ -92,6 +93,504 @@
     </div>
   </header>
   <!-- End Header  -->
+  <!-- start Bunner -->
+  <section class="bunner">
+    <h1 class="category-title"> قسم الجوالات</h1>
+  </section>
+  <!-- end Bunner -->
+
+  <div class="container mt-5">
+    <button class="navbar-toggler menu-icon d-sm-none icons" type="button" data-bs-toggle="offcanvas" href="#filter"
+      role="button" aria-controls="offcanvasExample">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+    <div class="row">
+      <div class="col-md-3 d-none d-md-block">
+        <div class="filter-section sticky-lg-top">
+          <h4 class="filter-title">فلترة بالبحث</h4>
+          <input type="text" class="form-control " placeholder="اكتب اسم المنتج للبحث عنه">
+          <select name="" id="" class="form-select mt-3">
+            <option value=""> حواسيب</option>
+            <option value=""> جوالات</option>
+            <option value=""> الحواسيب</option>
+            <option value=""> الساعات</option>
+            <option value=""> الاكسسوارات</option>
+            <option value=""> الالكترونيات</option>
+
+          </select>
+          <hr>
+          <h4 class="filter-title">فلترة التصنيف</h4>
+          <div class="filter-radio d-flex flex-column gap-1">
+            <div>
+              <input name="category" type="radio" class="form-check-input">
+              <label for="" class="form-label">سامسونغ</label>
+            </div>
+            <div>
+              <input name="category" type="radio" class="form-check-input">
+              <label for="" class="form-label">جوالات</label>
+            </div>
+            <div>
+              <input name="category" type="radio" class="form-check-input">
+              <label for="" class="form-label">الحواسيب</label>
+            </div>
+            <div>
+              <input name="category" type="radio" class="form-check-input">
+              <label for="" class="form-label">الساعات</label>
+            </div>
+            <div>
+              <input name="category" type="radio" class="form-check-input">
+              <label for="" class="form-label">الاكسسوارات</label>
+            </div>
+            <div>
+              <input name="category" type="radio" class="form-check-input">
+              <label for="" class="form-label">الالكترونيات</label>
+            </div>
+          </div>
+          <hr>
+          <h4 class="filter-title">فلترة نوع المعالج </h4>
+          <div class="filter-radio d-flex flex-column gap-1">
+            <div>
+              <input name="category" type="radio" class="form-check-input">
+              <label for="" class="form-label">سامسونغ</label>
+            </div>
+            <div>
+              <input name="category" type="radio" class="form-check-input">
+              <label for="" class="form-label">جوالات</label>
+            </div>
+            <div>
+              <input name="category" type="radio" class="form-check-input">
+              <label for="" class="form-label">الحواسيب</label>
+            </div>
+            <div>
+              <input name="category" type="radio" class="form-check-input">
+              <label for="" class="form-label">الساعات</label>
+            </div>
+            <div>
+              <input name="category" type="radio" class="form-check-input">
+              <label for="" class="form-label">الاكسسوارات</label>
+            </div>
+            <div>
+              <input name="category" type="radio" class="form-check-input">
+              <label for="" class="form-label">الالكترونيات</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div class="row row-cols-2 row-cols-md-4 ">
+          <div class="col product mb-3 phones">
+            <div class="card overflow-hidden">
+              <div class="quick-icon">
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-code-compare"></i>
+                </a>
+              </div>
+              <img src="images/products/4.jpg" alt="product" />
+              <div class="product-info">
+                <h3 class="text-center">سامسونغ s23</h3>
+                <p class="text-center">احدث السامسونغ وأخفها وزنا</p>
+                <div class="starts mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر: 250</span>
+                  <span>400$</span>
+                </div>
+                <button class="btn btn-danger w-100" data-bs-toggle="modal" data-bs-target="#Modal">
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 acc">
+            <div class="card overflow-hidden">
+              <div class="quick-icon">
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-code-compare"></i>
+                </a>
+              </div>
+              <img src="images/products/12.jpg" alt="product" />
+              <div class="product-info">
+                <h3 class="text-center">سامسونغ s23</h3>
+                <p class="text-center">احدث السامسونغ وأخفها وزنا</p>
+                <div class="starts mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر: 250</span>
+                  <span>400$</span>
+                </div>
+                <button class="btn btn-danger w-100" data-bs-toggle="modal" data-bs-target="#Modal">
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 acc">
+            <div class="card overflow-hidden">
+              <div class="quick-icon">
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-code-compare"></i>
+                </a>
+              </div>
+              <img src="images/products/6.jpg" alt="product" />
+              <div class="product-info">
+                <h3 class="text-center">سامسونغ s23</h3>
+                <p class="text-center">احدث السامسونغ وأخفها وزنا</p>
+                <div class="starts mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر: 250</span>
+                  <span>400$</span>
+                </div>
+                <button class="btn btn-danger w-100" data-bs-toggle="modal" data-bs-target="#Modal">
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 computers">
+            <div class="card overflow-hidden">
+              <div class="quick-icon">
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-code-compare"></i>
+                </a>
+              </div>
+              <img src="images/products/9.jpg" alt="product" />
+              <div class="product-info">
+                <h3 class="text-center">سامسونغ s23</h3>
+                <p class="text-center">احدث السامسونغ وأخفها وزنا</p>
+                <div class="starts mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر: 250</span>
+                  <span>400$</span>
+                </div>
+                <button class="btn btn-danger w-100" data-bs-toggle="modal" data-bs-target="#Modal">
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 acc">
+            <div class="card overflow-hidden">
+              <div class="quick-icon">
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-code-compare"></i>
+                </a>
+              </div>
+              <img src="images/products/12.jpg" alt="product" />
+              <div class="product-info">
+                <h3 class="text-center">سامسونغ s23</h3>
+                <p class="text-center">احدث السامسونغ وأخفها وزنا</p>
+                <div class="starts mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر: 250</span>
+                  <span>400$</span>
+                </div>
+                <button data-bs-toggle="modal" data-bs-target="#Modal" class="btn btn-danger w-100">
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 phones">
+            <div class="card overflow-hidden">
+              <div class="quick-icon">
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-code-compare"></i>
+                </a>
+              </div>
+              <img src="images/products/7.jpg" alt="product" />
+              <div class="product-info">
+                <h3 class="text-center">سامسونغ s23</h3>
+                <p class="text-center">احدث السامسونغ وأخفها وزنا</p>
+                <div class="starts mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر: 250</span>
+                  <span>400$</span>
+                </div>
+                <button data-bs-toggle="modal" data-bs-target="#Modal" class="btn btn-danger w-100">
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col product mb-3 acc">
+            <div class="card overflow-hidden">
+              <div class="quick-icon">
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-code-compare"></i>
+                </a>
+              </div>
+              <img src="images/products/11.jpg" alt="product" />
+              <div class="product-info">
+                <h3 class="text-center">سامسونغ s23</h3>
+                <p class="text-center">احدث السامسونغ وأخفها وزنا</p>
+                <div class="starts mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر: 250</span>
+                  <span>400$</span>
+                </div>
+                <button class="btn btn-danger w-100" data-bs-toggle="modal" data-bs-target="#Modal">
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 phones">
+            <div class="card overflow-hidden">
+              <div class="quick-icon">
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-code-compare"></i>
+                </a>
+              </div>
+              <img src="images/products/4.jpg" alt="product" />
+              <div class="product-info">
+                <h3 class="text-center">سامسونغ s23</h3>
+                <p class="text-center">احدث السامسونغ وأخفها وزنا</p>
+                <div class="starts mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر: 250</span>
+                  <span>400$</span>
+                </div>
+                <button class="btn btn-danger w-100" data-bs-toggle="modal" data-bs-target="#Modal">
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 acc">
+            <div class="card overflow-hidden">
+              <div class="quick-icon">
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-code-compare"></i>
+                </a>
+              </div>
+              <img src="images/products/12.jpg" alt="product" />
+              <div class="product-info">
+                <h3 class="text-center">سامسونغ s23</h3>
+                <p class="text-center">احدث السامسونغ وأخفها وزنا</p>
+                <div class="starts mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر: 250</span>
+                  <span>400$</span>
+                </div>
+                <button data-bs-toggle="modal" data-bs-target="#Modal" class="btn btn-danger w-100">
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 computers">
+            <div class="card overflow-hidden">
+              <div class="quick-icon">
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-code-compare"></i>
+                </a>
+              </div>
+              <img src="images/products/9.jpg" alt="product" />
+              <div class="product-info">
+                <h3 class="text-center">سامسونغ s23</h3>
+                <p class="text-center">احدث السامسونغ وأخفها وزنا</p>
+                <div class="starts mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر: 250</span>
+                  <span>400$</span>
+                </div>
+                <button class="btn btn-danger w-100" data-bs-toggle="modal" data-bs-target="#Modal">
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 phones">
+            <div class="card overflow-hidden">
+              <div class="quick-icon">
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-code-compare"></i>
+                </a>
+              </div>
+              <img src="images/products/1.jpg" alt="product" />
+              <div class="product-info">
+                <h3 class="text-center">سامسونغ s23</h3>
+                <p class="text-center">احدث السامسونغ وأخفها وزنا</p>
+                <div class="starts mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر: 250</span>
+                  <span>400$</span>
+                </div>
+                <button data-bs-toggle="modal" data-bs-target="#Modal" class="btn btn-danger w-100">
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 acc">
+            <div class="card overflow-hidden">
+              <div class="quick-icon">
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+                <a href="#quick-product" data-bs-toggle="modal">
+                  <i class="fa-solid fa-code-compare"></i>
+                </a>
+              </div>
+              <img src="images/products/6.jpg" alt="product" />
+              <div class="product-info">
+                <h3 class="text-center">سامسونغ s23</h3>
+                <p class="text-center">احدث السامسونغ وأخفها وزنا</p>
+                <div class="starts mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر: 250</span>
+                  <span>400$</span>
+                </div>
+                <button class="btn btn-danger w-100" data-bs-toggle="modal" data-bs-target="#Modal">
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -101,8 +600,6 @@
 
 
 
-
-  
   <!-- Start Footer -->
   <footer>
     <div class="container">
@@ -206,7 +703,7 @@
     </div>
   </footer>
   <!-- End Footer -->
-  <!-- cart -->
+  <!-- start cart -->
 
   <div class="offcanvas offcanvas-start" tabindex="-1" id="cart" aria-labelledby="offcanvasExampleLabel">
     <div class="offcanvas-header">
@@ -261,7 +758,90 @@
       </div>
     </div>
   </div>
+  <!-- End card -->
+  <!-- start filter -->
 
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="filter" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="cart"> الفلترة </h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+
+
+
+      <div class="filter-section sticky-lg-top">
+        <h4 class="filter-title">فلترة بالبحث</h4>
+        <input type="text" class="form-control " placeholder="اكتب اسم المنتج للبحث عنه">
+        <select name="" id="" class="form-select mt-3">
+          <option value=""> حواسيب</option>
+          <option value=""> جوالات</option>
+          <option value=""> الحواسيب</option>
+          <option value=""> الساعات</option>
+          <option value=""> الاكسسوارات</option>
+          <option value=""> الالكترونيات</option>
+
+        </select>
+        <hr>
+        <h4 class="filter-title">فلترة التصنيف</h4>
+        <div class="filter-radio d-flex flex-column gap-1">
+          <div>
+            <input name="category" type="radio" class="form-check-input">
+            <label for="" class="form-label">سامسونغ</label>
+          </div>
+          <div>
+            <input name="category" type="radio" class="form-check-input">
+            <label for="" class="form-label">جوالات</label>
+          </div>
+          <div>
+            <input name="category" type="radio" class="form-check-input">
+            <label for="" class="form-label">الحواسيب</label>
+          </div>
+          <div>
+            <input name="category" type="radio" class="form-check-input">
+            <label for="" class="form-label">الساعات</label>
+          </div>
+          <div>
+            <input name="category" type="radio" class="form-check-input">
+            <label for="" class="form-label">الاكسسوارات</label>
+          </div>
+          <div>
+            <input name="category" type="radio" class="form-check-input">
+            <label for="" class="form-label">الالكترونيات</label>
+          </div>
+        </div>
+        <hr>
+        <h4 class="filter-title">فلترة نوع المعالج </h4>
+        <div class="filter-radio d-flex flex-column gap-1">
+          <div>
+            <input name="category" type="radio" class="form-check-input">
+            <label for="" class="form-label">سامسونغ</label>
+          </div>
+          <div>
+            <input name="category" type="radio" class="form-check-input">
+            <label for="" class="form-label">جوالات</label>
+          </div>
+          <div>
+            <input name="category" type="radio" class="form-check-input">
+            <label for="" class="form-label">الحواسيب</label>
+          </div>
+          <div>
+            <input name="category" type="radio" class="form-check-input">
+            <label for="" class="form-label">الساعات</label>
+          </div>
+          <div>
+            <input name="category" type="radio" class="form-check-input">
+            <label for="" class="form-label">الاكسسوارات</label>
+          </div>
+          <div>
+            <input name="category" type="radio" class="form-check-input">
+            <label for="" class="form-label">الالكترونيات</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End filter -->
   <!-- login -->
   <div class="offcanvas offcanvas-end" tabindex="-1" id="login" aria-labelledby="offcanvasExampleLabel">
     <div class="offcanvas-header">

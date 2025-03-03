@@ -273,7 +273,19 @@ a:hover span {
 .ad .ad-info p {
   color: white;
 }
+.icons i{
+  font-size: 50px;
+ 
+  padding: 10px;
+  border: 1px solid #eee;
+  background-color: #eee; 
+  color: rgb(32, 32, 32);
+}
+.icons i:hover{
+  background-color: var(--secondaryColor);
+  color: white;
 
+}
 footer {
   background-color: rgba(0, 0, 0, 0.861);
   padding-top: 50px;
@@ -339,16 +351,45 @@ footer .navbar-nav li i {
 }
 .reivew-title {
   font-size: 20px;
-  font-family:"Almara" ;
+  font-family: "Almara";
   font-weight: bold;
 }
 .review-section {
   border: 1px solid #ccc;
-  padding:15px ;
+  padding: 15px;
   border-radius: 15px;
 }
 .reviews-span {
   font-size: 20px;
   font-weight: bold;
-text-shadow: 2px 2px 2px rgb(105, 116, 119);
+  text-shadow: 2px 2px 2px rgb(105, 116, 119);
+}
+.bunner {
+  background-color: black;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  border-bottom: 2px solid var(--secondaryColor);
+  background-color: rgba(45, 43, 43, 0.861);
+  background-image: url("../images/footerbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.category-title {
+  color: white;
+  font-family: "ALmarai";
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+}
+.filter-section {
+  background-color: #eee;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.filter-title {
+  font-family: "ALmarai";
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 3px;
 }
