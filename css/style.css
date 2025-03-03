@@ -337,3 +337,18 @@ footer .navbar-nav li i {
   right: -130px;
   gap: 10px;
 }
+.reivew-title {
+  font-size: 20px;
+  font-family:"Almara" ;
+  font-weight: bold;
+}
+.review-section {
+  border: 1px solid #ccc;
+  padding:15px ;
+  border-radius: 15px;
+}
+.reviews-span {
+  font-size: 20px;
+  font-weight: bold;
+text-shadow: 2px 2px 2px rgb(105, 116, 119);
+}
