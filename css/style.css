@@ -319,7 +319,7 @@ footer a {
 .footer-li li a:hover {
   font-weight: bold !important;
   transform: translateX(-10px) !important;
-  text-shadow: 2px 2px 2px var(--secondaryColor);
+  text-shadow: 2px 2px 2px var(--main-color);
 }
 footer .row:first-child {
   border-bottom: 1px dashed #eeeeee90;
@@ -405,4 +405,38 @@ footer .navbar-nav li i {
   border-bottom: 1px dashed #ccc;
   margin-bottom: 15px;
 }
- 
+.user-info {
+  background-color: #eeeeeecc;
+  padding: 15px;
+  border-radius: 10px;
+}
+.total-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--secondaryColor);
+}
+.master-card {
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 10px;
+}
+.master-card img {
+  top: 58%;
+  left: 10px;
+}
+.payments i {
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.5s;
+}
+.payments i:hover {
+  color: var(--secondaryColor);
+}
+.iti {
+  width: 100% !important;
+}
+.iti__country-list {
+  position: absolute;
+  left:0 ;
+}
