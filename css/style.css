@@ -273,18 +273,17 @@ a:hover span {
 .ad .ad-info p {
   color: white;
 }
-.icons i{
+.icons i {
   font-size: 50px;
- 
+
   padding: 10px;
   border: 1px solid #eee;
-  background-color: #eee; 
+  background-color: #eee;
   color: rgb(32, 32, 32);
 }
-.icons i:hover{
+.icons i:hover {
   background-color: var(--secondaryColor);
   color: white;
-
 }
 footer {
   background-color: rgba(0, 0, 0, 0.861);
@@ -366,8 +365,8 @@ footer .navbar-nav li i {
 }
 .bunner {
   background-color: black;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   border-bottom: 2px solid var(--secondaryColor);
   background-color: rgba(45, 43, 43, 0.861);
   background-image: url("../images/footerbg.png");
@@ -393,3 +392,17 @@ footer .navbar-nav li i {
   font-size: 22px;
   margin-top: 3px;
 }
+.card-product-item {
+  font-size: 18px;
+  font-weight: bold;
+}
+.summery {
+  background-color: #eee;
+  padding: 15px;
+  border-radius: 10px;
+}
+.card-itme {
+  border-bottom: 1px dashed #ccc;
+  margin-bottom: 15px;
+}
+ 
